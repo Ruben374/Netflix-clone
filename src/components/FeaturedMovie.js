@@ -5,6 +5,11 @@ export default (props) => {
 
     let firstDate = new Date(props.item.first_air_date)
     let genres = []
+    let description=props.item.overview
+    if(description.length>200){
+        description=description.substring(0, 200)+'...'
+    }
+    
     for (let i in props.item.genres) {
         genres.push(props.item.genres[i].name)
     }
@@ -23,7 +28,7 @@ export default (props) => {
                         <div className='featured--season'>{props.item.number_of_seasons} season{props.item.number_of_seasons != 1 ? 's' : ''}</div>
                     </div>
                     <div className='featured--description'>
-                        {props.item.overview}
+                        {description}
                     </div>
                     <div className='featured--buttons'>
                         <a href={`/watch/${props.item.id}`} className='featured--watchButton'>► Assitir Agora</a>

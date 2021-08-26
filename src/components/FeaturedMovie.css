@@ -17,6 +17,7 @@
     justify-content:center;
     padding-left:30px;
     padding-bottom:150px;
+  
 
 }
 
@@ -24,6 +25,7 @@
     font-size: 60px;
     font-weight: bold;
     margin-right: 15px;
+   
 }
 
 .featured--info {
@@ -80,4 +82,32 @@
 margin-top:15px;
 font-size:18px;
 color:#999
+}
+
+@media(max-width:760px){
+    .featured {
+        height: 100vh;
+    }
+    .featured--name{
+        font-size: 40px;
+        padding-top: 100px;
+    }
+    .featured--info{
+        font-size: 16px;
+    }
+    .featured--description{
+        font-size: 14px;
+        max-width: 100%;
+        margin-right: 30px;
+    }
+    .featured--genres{
+        font-size: 14px;
+      
+    }
+    .featured--watchButton, .featured--myListButton{
+       
+       font-size:16px;
+      
+
+    }
 }
