@@ -1,7 +1,7 @@
 
 # Netflix-clone
 
-### It´s simple netflix-clone developed with react.js
+### It´s a simple netflix-clone developed with react.js
 
 >Status:completed✔️
 
