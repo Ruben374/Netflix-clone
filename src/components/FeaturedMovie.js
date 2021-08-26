@@ -6,8 +6,8 @@ export default (props) => {
     let firstDate = new Date(props.item.first_air_date)
     let genres = []
     let description=props.item.overview
-    if(description.length>200){
-        description=description.substring(0, 200)+'...'
+    if(description.length>160){
+        description=description.substring(0, 160)+'...'
     }
     
     for (let i in props.item.genres) {
