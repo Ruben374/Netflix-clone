@@ -10,7 +10,7 @@ It uses [The MovieDB Api](https://www.themoviedb.org/documentation/api) to searc
 ### Tools used:
 - React 
 - CSS
-- Material-ui (to install run: `npm install @material-ui/core and @material-ui/icons`)
+- Material-ui
 
 ### Runing Project Locally:
 - Install dependencies: run `npm install` in root project
