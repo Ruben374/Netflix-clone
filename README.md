@@ -14,7 +14,6 @@ It uses [The MovieDB Api](https://www.themoviedb.org/documentation/api) to searc
 
 ### Runing Project Locally:
 - Install dependencies: run `npm install` in root project
-- Install material-ui: run `npm install @material-ui/core and @material-ui/icons` in root project
 - Get API key from [here](https://www.themoviedb.org/documentation/api)
 - Open the file <strong>Tmdb.js</strong> and in the first line put your api key
 - Run project: `npm start`
